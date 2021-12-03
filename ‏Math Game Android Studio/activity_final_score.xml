@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/chinese_dragon"
+    tools:context=".FinalScoreActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="171dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/final_score" />
+
+    <TextView
+        android:id="@+id/textFinalScore"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
+        android:text="Your final score is: "
+        android:textColor="#FCFCFC"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonBackToTheMenu"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="260dp"
+        android:background="#FFEB3B"
+        android:text="Back To The Menu"
+        android:textColor="#FFCE0000"
+        android:textStyle="bold" />
+</RelativeLayout>

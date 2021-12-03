@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/chinese_dragon"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="Math Game"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFEB3B"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Hagay and Elihai"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="156dp"
+        android:layout_height="189dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/android_man"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="17dp"
+        android:background="#FFEB3B"
+        android:text="Play"
+        android:textColor="#FFCE0000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonFinalScore"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="71dp"
+        android:background="#FFEB3B"
+        android:text="Final Score"
+        android:textColor="#FFCE0000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonQuit"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="125dp"
+        android:background="#FFEB3B"
+        android:onClick="clickExit"
+        android:text="Quit"
+        android:textColor="#FFCE0000"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
